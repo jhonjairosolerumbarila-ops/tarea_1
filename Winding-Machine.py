@@ -6,7 +6,7 @@ import os
 import subprocess
 import RPi.GPIO as GPIO
 import threading
-
+#comentario de prueba
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
@@ -1404,3 +1404,4 @@ while(1):
         sys.exit()
 
    
+
