@@ -9,7 +9,7 @@ import threading
 #comentario de prueba
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-
+# comentario 2 de prueba
 wg = serial.Serial("/dev/ttyUSB1", 9600)
 sp = serial.Serial("/dev/ttyUSB0", 9600)
 
@@ -1404,4 +1404,5 @@ while(1):
         sys.exit()
 
    
+
 
